@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap & Sass</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+     <!--MENU -->
+
+     <nav class="navbar shadow-sm wrap nav-underline navbar-expand-md p-3 navbar-collapse">
+        <div class="container ">
+            <a class="navbar-brand" href="#"><img src="./Recursos1.2/Imagenes/logo-bookmark.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarNav">
+                <ul class="navbar-nav ms-auto me-4">
+                    <li class="nav-item me-5">
+                        <a class="nav-link " href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#" class="btn-login btn btn-secondary  px-4 btn-md ">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--SECTION 1-->
+
+    <div class="container mt-3 d-flex justify-content-end overflow-auto">
+        <div class="row containerd-flex justify-content-center flex-column-reverse flex-md-row ">
+
+            <div class="col-sm-12 col-md-6 col-lg-4 p-1 col-xl-4 ">
+                <h2 class="fw-medium display-3 col-lg-12 mx-3 mt-2 ">A simple Bookmark <br> Manager</h2>
+                <p class="text-justify p-1 text-muted">A clean and simple interface to organize your favourite
+                    Websites. Open a new browser tab and see your sites load
+                    instantly. Try it for free.</p>
+                <a href="#" class="btnchrome btn btn-primary m-1 px-4 btn-md">Get it Chrome</a>
+                <a href="#" class="btnfirefox btn btn-gray px-4 m-1 btn-md ">Get it on Firefox</a>
+            </div>
+
+            <div class=" col-md-6 col-12 mt-4 px-1 position-relative shdwp">
+                <img src="./Recursos1.2/Imagenes/illustration-hero-DERCH-NO.svg" alt="Imagen de ejemplo"
+                    class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script section> -->
+
+    <script src="./main.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

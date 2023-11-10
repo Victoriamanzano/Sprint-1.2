@@ -1,0 +1,54 @@
+// Color principal: 
+// Color secundari:  
+
+$primary: #5265E1;
+$secondary: #FA5959;
+$gray: #ececec;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
+  }
+  
+  /*nav - menu*/
+  .nav-link:hover {
+    color: $secondary;
+  }
+  
+  .btn-login {
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  .btn-login:hover {
+    color: $secondary;
+    background: #fff;
+    border: 2px solid $secondary;
+  }
+  
+  /* s1 */
+  .btnchrome {
+    background: $primary;
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  .btnchrome:hover {
+    background: #fff;
+    color: $primary;
+    border: 2px solid $primary;
+  }
+  
+  .btnfirefox {
+    background: $gray;
+    color: gray;
+    border-radius: 3px;
+  }
+  
+  .btnfirefox:hover {
+    background: #fff;
+    color: gray;
+    border: 2px solid gray;
+  }
