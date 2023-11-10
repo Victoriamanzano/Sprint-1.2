@@ -11,9 +11,9 @@
 
 <body>
 
-     <!--MENU -->
+    <!--MENU -->
 
-     <nav class="navbar shadow-sm wrap nav-underline navbar-expand-md p-3 navbar-collapse">
+    <nav class="navbar shadow-sm wrap nav-underline navbar-expand-md p-3 navbar-collapse">
         <div class="container ">
             <a class="navbar-brand" href="#"><img src="./Recursos1.2/Imagenes/logo-bookmark.svg" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -60,11 +60,97 @@
         </div>
     </div>
 
+    <!--SECTION 2-->
 
-    <!-- <script section> -->
+    <section class="container mt-3">
+        <div class="row align-items-center">
+            <div class="text-s2 offset-lg-3 col-lg-6 text-center">
+                <h2 class="fw-medium h2-s2 pb-3 text-dark">Features</h2>
+                <p class="text-justify text-muted">Our aim is to make it quick and easy for you to acces your
+                    favourite websites. Your bookmarks sync between your devices
+                    so you can acces them on the go.
+                </p>
+            </div>
+        </div>
+    </section>
 
-    <script src="./main.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!--SECTION 3-->
+
+    <div class="container col-md-6 col-md-10 col-md-12 mt-5 mx-auto">
+
+        <ul class="nav nav-tabs nav-underline nav-justified d-flex flex-column flex-sm-row" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="feature1-tab" data-bs-toggle="tab" href="#feature1" role="tab"
+                    aria-controls="feature1" aria-selected="true">Simple Bookmarking</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="feature2-tab" data-bs-toggle="tab" href="#feature2" role="tab"
+                    aria-controls="feature2" aria-selected="false">Speedy Searching</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="feature3-tab" data-bs-toggle="tab" href="#feature3" role="tab"
+                    aria-controls="feature3" aria-selected="false">Easy Sharing</a>
+            </li>
+        </ul>
+
+        <div class="container tab-content mt-5">
+
+            <div class="tab-content active" id="myTabContent">
+                <div class="tab-pane fade show active" id="feature1" role="tabpanel" aria-labelledby="feature1-tab">
+                    <div class="row container">
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="./Recursos1.2/Imagenes/illustration-features-tab-1-IZQ-NO.svg"
+                                alt="Image1">
+                        </div>
+                        <div class="col-md-6 d-flex mt-4 flex-column text-center bmkock">
+                            <h2 class="text-center fw-medium">Bookmark in one click</h2>
+                            <p class="p-2 text-muted">Organize your bookmarks however you like. Our simple drag-and-drop
+                                interface gives you complete control over how you manage your favorite sites.</p>
+                            <div>
+                                <button type="button" class="btnmf btn px-4 m-1 btn-primary">More info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="feature2" role="tabpanel" aria-labelledby="feature2-tab">
+                    <div class="row container">
+                        <div class="col-md-6">
+                            <img src="./Recursos1.2/Imagenes/illustration-features-tab-2.svg" alt="Image2">
+                        </div>
+                        <div class="col-md-6 d-flex flex-column text-start">
+                            <h2 class="text-center fw-medium">Intelligent search</h2>
+                            <p class="p-2 text-muted">Our powerful search feature will help you find saved sites in no
+                                time at all. No need to trawl through all of your bookmarks.</p>
+                            <div>
+                                <button type="button" class="btnmf btn px-4 m-1 btn-primary ">More info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="feature3" role="tabpanel" aria-labelledby="feature3-tab">
+                    <div class="row container">
+                        <div class="col-md-6">
+                            <img src="./Recursos1.2/Imagenes/illustration-features-tab-3.svg" alt="Image3">
+                        </div>
+                        <div class="col-md-6 d-flex flex-column text-start">
+                            <h2 class="text-center fw-medium">Share your bookmarks</h2>
+                            <p class="p-2 text-muted">Easily share your bookmarks and collections with others. Create a
+                                shareable link that you can send at the click of a button.</p>
+                            <div>
+                                <button type="button" class="btnmf btn px-4 m-1 btn-primary">More info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <script section> -->
+
+        <script src="./main.js"></script>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>

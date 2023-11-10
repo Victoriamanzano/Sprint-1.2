@@ -12020,4 +12020,40 @@ body {
   background: #fff;
   color: gray;
   border: 2px solid gray;
+}
+
+/* S2 */
+/* S3 */
+.nav-link {
+  color: gray;
+}
+
+.nav-tabs {
+  text-decoration: none;
+}
+
+.nav-underline .nav-link.active,
+.nav-underline .show > .nav-link {
+  border-color: #FA5959;
+}
+
+nav-footlink {
+  color: #fff;
+}
+
+.nav-tabs .nav-link {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.btnmf {
+  background: #5265E1;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btnmf:hover {
+  color: #fff;
+  border: 2px solid #5265E1;
 }/*# sourceMappingURL=styles.css.map */
