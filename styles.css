@@ -12124,4 +12124,27 @@ nav-footlink {
 
 .social-f a:hover {
   filter: invert(46%) sepia(47%) saturate(1661%) hue-rotate(322deg) brightness(99%) contrast(84%);
+}
+
+/*@MEDIA*/
+@media (min-width: 1200px) {
+  /*S5*/
+  .crd1 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  .crd2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .crd3 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+}
+@media (width >= 576px) {
+  /*S2*/
+  .text-s2 {
+    margin-top: 15px;
+  }
 }/*# sourceMappingURL=styles.css.map */
