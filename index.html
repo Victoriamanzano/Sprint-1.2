@@ -15,7 +15,7 @@
 
     <nav class="navbar shadow-sm wrap nav-underline navbar-expand-md p-3 navbar-collapse">
         <div class="container ">
-            <a class="navbar-brand" href="#"><img src="./Recursos1.2/Imagenes/logo-bookmark.svg" alt="logo"></a>
+            <a class="navbar-brand" href="#"><img src="./Recursos/Imagenes/logo-bookmark.svg" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,7 @@
             </div>
 
             <div class=" col-md-6 col-12 mt-4 px-1 position-relative shdwp">
-                <img src="./Recursos1.2/Imagenes/illustration-hero-DERCH-NO.svg" alt="Imagen de ejemplo"
+                <img src="./Recursos/Imagenes/illustration-hero-DERCH-NO.svg" alt="Imagen de ejemplo"
                     class="img-fluid">
             </div>
         </div>
@@ -99,7 +99,7 @@
                 <div class="tab-pane fade show active" id="feature1" role="tabpanel" aria-labelledby="feature1-tab">
                     <div class="row container">
                         <div class="col-md-6">
-                            <img class="img-fluid" src="./Recursos1.2/Imagenes/illustration-features-tab-1-IZQ-NO.svg"
+                            <img class="img-fluid" src="./Recursos/Imagenes/illustration-features-tab-1-IZQ-NO.svg"
                                 alt="Image1">
                         </div>
                         <div class="col-md-6 d-flex mt-4 flex-column text-center bmkock">
@@ -116,7 +116,7 @@
                 <div class="tab-pane fade" id="feature2" role="tabpanel" aria-labelledby="feature2-tab">
                     <div class="row container">
                         <div class="col-md-6">
-                            <img src="./Recursos1.2/Imagenes/illustration-features-tab-2.svg" alt="Image2">
+                            <img src="./Recursos/Imagenes/illustration-features-tab-2.svg" alt="Image2">
                         </div>
                         <div class="col-md-6 d-flex flex-column text-start">
                             <h2 class="text-center fw-medium">Intelligent search</h2>
@@ -132,7 +132,7 @@
                 <div class="tab-pane fade" id="feature3" role="tabpanel" aria-labelledby="feature3-tab">
                     <div class="row container">
                         <div class="col-md-6">
-                            <img src="./Recursos1.2/Imagenes/illustration-features-tab-3.svg" alt="Image3">
+                            <img src="./Recursos/Imagenes/illustration-features-tab-3.svg" alt="Image3">
                         </div>
                         <div class="col-md-6 d-flex flex-column text-start">
                             <h2 class="text-center fw-medium">Share your bookmarks</h2>
@@ -167,7 +167,7 @@
 
                 <div class="card rounded-3 col-md-3 col-12 text-center border-0 shadow crd1">
 
-                    <img src="./Recursos1.2/Imagenes/logo-chrome.svg" alt="logo chrome" class="m-auto p-3 mt-4">
+                    <img src="./Recursos/Imagenes/logo-chrome.svg" alt="logo chrome" class="m-auto p-3 mt-4">
 
 
                     <div class="card-body">
@@ -181,7 +181,7 @@
                 </div>
 
                 <div class="card rounded-3 col-md-3 col-12 text-center border-0 shadow crd2">
-                    <img src="./Recursos1.2/Imagenes/logo-firefox.svg" alt="logo-firefox" class="m-auto p-3 mt-4">
+                    <img src="./Recursos/Imagenes/logo-firefox.svg" alt="logo-firefox" class="m-auto p-3 mt-4">
                     <div class="card-body">
 
                         <h2 class="text-dark">Add to Firefox</h2>
@@ -193,7 +193,7 @@
                 </div>
 
                 <div class="card rounded-3 col-md-3 col-12 text-center border-0 shadow crd3">
-                    <img src="./Recursos1.2/Imagenes/logo-opera.svg" alt="logo-opera" class="m-auto p-3 mt-4">
+                    <img src="./Recursos/Imagenes/logo-opera.svg" alt="logo-opera" class="m-auto p-3 mt-4">
                     <div class="card-body">
 
                         <h2 class="text-dark">Add to Opera</h2>
@@ -304,17 +304,18 @@
         <div class="text-s8 fw-bold">
             <h1 class="text-white fs-1 mb-3">Stay up-to-date with what we're doing</h1>
         </div>
-
+    
         <div class="container-s8 mt-3 mb-5">
-
-            <div class="input-container">
-                <input type="text" id="emailInput" class="place-8 py-3" placeholder="Enter your email adress">
-                <button class="btns8 btn py-2  px-2 btn-secondary" id="btnS8">Contact Us</button>
-            </div>
-
+            <form id="subscribeForm" method="POST">
+                <div class="input-container">
+                    <input type="email" name="email" id="emailInput" class="place-8 py-2" placeholder="Enter your email address" required>
+                    <button type="button" class="btns8 btn py-2 px-2 btn-secondary" id="btnS8">Subscribe</button>
+                </div>
+            </form>
+    
             <div class="error-accordion" id="errorAccordion">
-                <div class="error-conten pt-0 py-1">
-                    <p class="text-bg-secondary text-white">Whoops, make sure it's an email</p>
+                <div class="error-content pt-0 py-1">
+                    <p class="text-bg-secondary text-white">Whoops, make sure it's a valid email</p>
                 </div>
             </div>
         </div>
@@ -324,7 +325,7 @@
 
     <footer class="foot9 navbar shadow-sm wrap navbar-expand-md p-3 navbar-collapse">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="./Recursos1.2/Imagenes/logo-blanco-bookmark.svg" alt="logo"></a>
+            <a class="navbar-brand" href="#"><img src="./Recursos/Imagenes/logo-blanco-bookmark.svg" alt="logo"></a>
 
             <div class="collapse navbar-collapse" id="navBarNav">
                 <ul class="navbar-nav ms-auto me-4">
@@ -339,9 +340,9 @@
                     </li>
                 </ul>
                 <div class="social-f">
-                    <a class="navbar-brand px-2 lgscl" href="#"><img src="./Recursos1.2/Imagenes/icon-facebook.svg"
+                    <a class="navbar-brand px-2 lgscl" href="#"><img src="./Recursos/Imagenes/icon-facebook.svg"
                             alt=""></a>
-                    <a class="navbar-brand px-2 lgscl" href="#"><img src="./Recursos1.2/Imagenes/icon-twitter.svg"
+                    <a class="navbar-brand px-2 lgscl" href="#"><img src="./Recursos/Imagenes/icon-twitter.svg"
                             alt=""></a>
                 </div>
             </div>
