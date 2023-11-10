@@ -12056,4 +12056,27 @@ nav-footlink {
 .btnmf:hover {
   color: #fff;
   border: 2px solid #5265E1;
+}
+
+/* S4 */
+/* S5 */
+.crd1 {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.crd2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.crd3 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.btncrdxplr:hover {
+  color: #5265E1;
+  background: #fff;
+  border-color: #5265E1;
 }/*# sourceMappingURL=styles.css.map */

@@ -10,81 +10,107 @@ $gray: #ececec;
 body {
     font-family: 'Rubik', sans-serif;
     margin-top: 20px;
-  }
-  
-  /*nav - menu*/
-  .nav-link:hover {
+}
+
+/*nav - menu*/
+.nav-link:hover {
     color: $secondary;
-  }
-  
-  .btn-login {
+}
+
+.btn-login {
     color: #fff;
     border-radius: 3px;
-  }
-  
-  .btn-login:hover {
+}
+
+.btn-login:hover {
     color: $secondary;
     background: #fff;
     border: 2px solid $secondary;
-  }
-  
-  /* s1 */
-  .btnchrome {
+}
+
+/* s1 */
+.btnchrome {
     background: $primary;
     color: #fff;
     border-radius: 3px;
-  }
-  
-  .btnchrome:hover {
+}
+
+.btnchrome:hover {
     background: #fff;
     color: $primary;
     border: 2px solid $primary;
-  }
-  
-  .btnfirefox {
+}
+
+.btnfirefox {
     background: $gray;
     color: gray;
     border-radius: 3px;
-  }
-  
-  .btnfirefox:hover {
+}
+
+.btnfirefox:hover {
     background: #fff;
     color: gray;
     border: 2px solid gray;
-  }
-  
+}
+
 /* S2 */
 /* S3 */
 .nav-link {
     color: gray;
-  }
-  
-  .nav-tabs {
+}
+
+.nav-tabs {
     text-decoration: none;
-  }
-  
-  .nav-underline .nav-link.active,
-  .nav-underline .show>.nav-link {
+}
+
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
     border-color: $secondary;
-  }
-  
-  nav-footlink {
+}
+
+nav-footlink {
     color: #fff;
-  }
-  
-  .nav-tabs .nav-link {
+}
+
+.nav-tabs .nav-link {
     border-top: 0;
     border-right: 0;
     border-left: 0;
-  }
-  
-  .btnmf {
+}
+
+.btnmf {
     background: $primary;
     color: #fff;
     border-radius: 3px;
-  }
-  
-  .btnmf:hover {
+}
+
+.btnmf:hover {
     color: #fff;
     border: 2px solid $primary;
-  }
+}
+
+/* S4 */
+/* S5 */
+.crd1 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.crd2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.crd3 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+
+}
+
+.btncrdxplr:hover {
+    color: $primary;
+    background: #fff;
+    border-color: $primary;
+}
