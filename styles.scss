@@ -120,3 +120,42 @@ nav-footlink {
 .txtfaq:hover {
     color: $secondary;
 }
+
+/* S8 */
+.btns8 {
+    color: #fff;
+}
+
+.btns8:hover {
+    color: $secondary;
+    background: #fff;
+}
+
+.place-8 {
+    height: 40px;
+    border-color: #fff;
+    border-radius: 4px;
+}
+
+.error-conten {
+    margin-bottom: 20px;
+    width: 207px;
+    height: 40px;
+}
+
+/* FOOTER */
+.foot9 {
+    background: rgb(45, 45, 87);
+}
+
+.nvlnkf {
+    color: #fff;
+}
+
+.nvlnkf:hover {
+    color: $secondary;
+}
+
+.social-f a:hover {
+    filter: invert(46%) sepia(47%) saturate(1661%) hue-rotate(322deg) brightness(99%) contrast(84%);
+}
