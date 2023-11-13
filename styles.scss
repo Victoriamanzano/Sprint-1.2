@@ -98,7 +98,8 @@ nav-footlink {
 
 .crd2 {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+
 
 }
 
@@ -132,7 +133,7 @@ nav-footlink {
 }
 
 .place-8 {
-
+    width: 200px;
     height: 40%;
     border-color: #fff;
     border-radius: 4px;
@@ -162,7 +163,22 @@ nav-footlink {
     filter: invert(46%) sepia(47%) saturate(1661%) hue-rotate(322deg) brightness(99%) contrast(84%);
 }
 
-/*@MEDIA*/
+.logoblanco {
+    align-content: center;
+}
+
+.btnnvt {
+    width: 20px;
+    align-content: center;
+    border-color: rgb(45, 45, 87);
+}
+
+.ullistf {
+    text-align: center;
+}
+
+
+
 @media (min-width: 1200px) {
 
     /*S5*/

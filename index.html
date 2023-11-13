@@ -96,7 +96,7 @@
 
             <div class="tab-content active" id="myTabContent">
                 <div class="tab-pane fade show active" id="feature1" role="tabpanel" aria-labelledby="feature1-tab">
-                    <div class="row container">
+                    <div class="row">
                         <div class="col-md-6">
                             <img class="img-fluid" src="./Recursos/Imagenes/illustration-features-tab-1-IZQ-NO.svg"
                                 alt="Image1">
@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="tab-pane fade" id="feature2" role="tabpanel" aria-labelledby="feature2-tab">
-                    <div class="row container">
+                    <div class="row">
                         <div class="col-md-6">
                             <img src="./Recursos/Imagenes/illustration-features-tab-2.svg" alt="Image2">
                         </div>
@@ -129,7 +129,7 @@
                 </div>
 
                 <div class="tab-pane fade" id="feature3" role="tabpanel" aria-labelledby="feature3-tab">
-                    <div class="row container">
+                    <div class="row">
                         <div class="col-md-6">
                             <img src="./Recursos/Imagenes/illustration-features-tab-3.svg" alt="Image3">
                         </div>
@@ -306,7 +306,7 @@
 
         <div class="container-s8 mt-3 mb-5">
             <form id="subscribeForm" method="POST">
-                <div class="input-container">
+                <div class="input">
                     <input type="email" name="email" id="emailInput" class="place-8 py-2"
                         placeholder="Enter your email address" required>
                     <button type="button" class="btns8 btn py-2 px-2 btn-secondary" id="btnS8">Subscribe</button>
@@ -323,11 +323,48 @@
 
     <!--FOOTER-->
 
+
+
     <footer class="foot9 navbar shadow-sm wrap navbar-expand-md p-3 navbar-collapse">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="./Recursos/Imagenes/logo-blanco-bookmark.svg" alt="logo"></a>
+
+            <nav class="nav-toggler2 btnnvt">
+
+
+                <button class="navbar-toggler col-1  btnnvt" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="">
+                    <!-- <span class="navbar-toggler-icon nti"></span> -->
+
+                    <ul class="navbar-nav col-12 ullistf">
+                        <li class="logoblanco">
+                            <a class="navbar-brand me-5 mt-5 " href="#"><img class="logoblanco"
+                                    src="./Recursos/Imagenes/logo-blanco-bookmark.svg" alt="logo"></a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link nvlnkf mt-3 justify-content-center" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class=" nav-link nvlnkf" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link mb-3 nvlnkf" href="#">CONTACT</a>
+                        </li>
+                        <li class="icon-facebook mb-3 social-f">
+                            <a class="navbar-brand  lgscl" href="#"><img src="./Recursos/Imagenes/icon-facebook.svg"
+                                    alt=""></a>
+                        </li>
+                        <li class="icon-twuiter social-f ">
+                            <a class="navbar-brand  lgscl" href="#"><img src="./Recursos/Imagenes/icon-twitter.svg"
+                                    alt=""></a>
+                        </li>
+
+                    </ul>
+                </button>
+            </nav>
 
             <div class="collapse navbar-collapse" id="navBarNav">
+                <a class="navbar-brand " href="#"><img src="./Recursos/Imagenes/logo-blanco-bookmark.svg"
+                        alt="logo"></a>
                 <ul class="navbar-nav ms-auto me-4">
                     <li class="nav-item me-5">
                         <a class="nav-link nvlnkf" href="#">FEATURES</a>
@@ -355,4 +392,5 @@
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
+
 </html>
