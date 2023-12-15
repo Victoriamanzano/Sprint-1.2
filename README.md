@@ -20,7 +20,7 @@ Se trata de una Landing Page construida con HTML, CSS, Sass, Bootstrap y JavaScr
 - Ejecuta **npm install** para instalar todas las dependencias.
   
 ## Ejecutar el Proyecto
-- Abre el archivo index.html en tu navegador web para ver el eCommerce.
+- Abre el archivo index.html en tu navegador web para ver la Landing Page.
   
 ## Estructura del Proyecto
 - **index.html:** Página principal (Landing Page).
