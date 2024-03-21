@@ -5,12 +5,14 @@
 <a href="#" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
 <a href="#" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="vscode" width="40" height="40"/></a>
   
-# Landing Page - Sprint 2
+# Landing Page - BOOKMARK
 
-Este repositorio es la 2a parte del 1r Sprint del curso de programación de Angular en **IT Academy Barcelona**.
 
-### Se trata de una Landing Page construida con los conocimientos:
 
+### Este repositorio se trata de una Landing Page que contiene: 
+ Navbar | Header | Slidebar | Cards | Menú desplegable | Formulario | Footer
+ 
+He utilizado los siguientes concoimientos:
 - HTML
 - CSS
 - SASS
